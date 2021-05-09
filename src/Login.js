@@ -6,12 +6,17 @@ function Login() {
         <div>
             <h3>Login page</h3>
             <label>Username</label><sp> </sp>
-            <input></input>
+            <input type="text" className="username" placeholder="Name"></input>
+
+            <br /><br />
+
+            <label>Email</label><sp> </sp>
+            <input type="email" className="email" placeholder="email@email.com"></input>
 
             <br /><br />
 
             <label>Password</label><sp> </sp>
-            <input></input>
+            <input type="password" className="email" placeholder="Password"></input>
             
         </div>
     )
