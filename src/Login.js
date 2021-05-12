@@ -1,4 +1,5 @@
 import React from 'react';
+ 
 
 function Login() {
 
@@ -6,7 +7,10 @@ function Login() {
         <div>
             <h3>Login page</h3>
             <label>Username</label><sp> </sp>
-            <input type="text" className="username" placeholder="Name"></input>
+            <input type="text" className="username" placeholder="Name"
+            onChange={e => this.text = e.target.value}
+            >
+            </input>
 
             <br /><br />
 
@@ -20,6 +24,7 @@ function Login() {
             
         </div>
     )
+    
 }
 
 export default Login;
